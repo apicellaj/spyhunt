@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">SpyHunt</string>
+
+    <!-- MainScreen Strings -->
+    <string name="start_game">Start Game</string>
+    <string name="how_to_play">How To Play</string>
+    <string name="settings">Settings</string>
+
+    <!-- Preferences Strings -->
+    <string name="preferences_screen_title">Settings</string>
+    <string name="locations_title">Custom Locations</string>
+    <string name="custom_locations">Enable?</string>
+    <string name="edit_locations">Edit Custom Locations</string>
+    <string name="timer_title">Custom Timer</string>
+    <string name="custom_timer">Enable?</string>
+    <string name="custom_time">Edit Custom Game Length</string>
+    <string name="custom_time_detail">Enter time in minutes</string>
+    <string name="players_title">Remember Players</string>
+    <string name="remember_players">Enable?</string>
+
+    <!-- Custom Locations Strings -->
+    <string name="custom_locations_screen_title">Custom Locations</string>
+    <string name="no_custom_locations">You have no custom locations.</string>
+    <string name="delete_dialog_title">Delete Location</string>
+    <string name="delete_dialog_message">Are you sure?</string>
+
+    <!-- Add Location Strings -->
+    <string name="add_location_title_hint">Enter the location\'s title</string>
+    <string name="add_location_role_hint">Enter a role</string>
+    <string name="add_location_field_error">Empty field</string>
+    <string name="add_location_error">Fields cannot be empty</string>
+
+    <!-- Game Lobby Strings -->
+    <string name="game_lobby_screen_title">Game Lobby</string>
+    <string name="select_number_of_players">Select the number of players:</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="player_1">Enter player one\'s name</string>
+    <string name="player_2">Enter player two\'s name</string>
+    <string name="player_3">Enter player three\'s name</string>
+    <string name="player_4">Enter player four\'s name</string>
+    <string name="player_5">Enter player five\'s name</string>
+    <string name="player_6">Enter player six\'s name</string>
+    <string name="player_7">Enter player seven\'s name</string>
+    <string name="player_8">Enter player eight\'s name</string>
+    <string name="sufficient_players_error">Name fields cannot be empty</string>
+    <string name="spy">Spy</string>
+
+    <!-- Game Detail Strings -->
+    <string name="game_detail_screen_title">SpyHunt</string>
+    <string name="show_locations">Show Locations</string>
+    <string name="hide_locations">Hide Locations</string>
+    <string name="show_roles">Show Roles</string>
+    <string name="hide_roles">Hide Roles</string>
+    <string name="time_remaining">Time Remaining:</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reveal_player_role">Click your name to reveal your role</string>
+    <string name="end_game">End Game</string>
+    <string name="vote">Vote for the spy!</string>
+    <string name="game_over">Game Over!</string>
+    <string name="reveal">Click to reveal</string>
+    <string name="game_over_results">%1$s was the spy!</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- Role Dialog Strings -->
+    <string name="role_dialog_location">The location is:  %1$s</string>
+    <string name="role_dialog_role">Your role is: %1$s</string>
+    <string name="location_unknown">Unknown</string>
+
+    <!-- How To Play Dialog Strings -->
+    <string name="how_to_play_info">SpyHunt is played in rounds. Each round players will be given a
+    secret location and a role. The locations will be the same (Supermarket) but their roles
+    will be different (Cashier, Customer, Butcher). However, one player will receive Spy as their
+    role and Unknown for their location.
+    \n\n
+    The game starts with one player asking another player a question. After a player answers a
+    question they get to ask a question to a different player. The goal of the players is to ask
+    questions to discover the spy without giving too much about the location away. The goal of the
+    spy is to listen closely and guess what the location might be based on the answers of the other
+    players.
+    \n\n
+    Every round each player can stop the clock once and accuse someone of being a spy. If all other
+    players (except the accused) agree then the game ends. If the players correctly guess the spy
+    then they win, otherwise the spy wins. When the timer runs out a similar vote occurs, but the
+    spy can win the game if he or she can guess the location before the timer runs out.</string>
+    <string name="close">Close Window</string>
+
+</resources>

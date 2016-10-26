@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/locations_title">
+
+        <SwitchPreference
+            android:key="custom_locations"
+            android:title="@string/custom_locations"
+            android:defaultValue="false"/>
+
+        <Preference android:title="@string/edit_locations" >
+            <intent android:action="com.apicellaj.android.spyhunt.customlocations.CustomLocationsActivity"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/timer_title">
+
+        <SwitchPreference
+            android:key="custom_timer"
+            android:title="@string/custom_timer"
+            android:defaultValue="false"/>
+
+        <EditTextPreference
+            android:key="custom_time"
+            android:title="@string/custom_time"
+            android:summary="@string/custom_time_detail"
+            android:defaultValue="7"
+            android:gravity="center_horizontal"
+            android:digits="0123456789"
+            android:maxLines="1"
+            android:maxLength="2"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/players_title">
+
+        <SwitchPreference
+            android:key="uses_saved_players"
+            android:title="@string/remember_players"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
